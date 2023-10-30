@@ -73,7 +73,7 @@ const Modal = ({ active, SetModalActive }) => {
             </div>
             <b>
               <div className="title"> У вас ещё нет аккаунта?</div>
-              <Link to={"http://localhost:3000/register"}>
+              <Link to={"/register"}>
                 <span onClick={() => SetModalActive(!active)}>
                   Зарегистрироваться
                 </span>
