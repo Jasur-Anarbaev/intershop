@@ -1,0 +1,10 @@
+{
+    "ordered_date": new Dat(),
+    "shipping_address": "sdfds fds fsd f",
+    "payment": false,
+    "items": [{
+        "product": 1,
+        "quantity": 10,
+        "status": "АК"
+    }]
+}

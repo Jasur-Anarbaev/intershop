@@ -1,0 +1,106 @@
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__items {
+        margin-top: 30px;
+        padding: 15px;
+        border-radius: 12px;
+        height: 510px;
+        width: 450px;
+        background-color: #10b985;
+
+        span {
+            color: red;
+        }
+
+        .btn {
+            display: flex;
+            justify-content: center;
+        }
+
+        .submit {
+            font-family: 'Poppins', sans-serif;
+            margin-top: 10px;
+            border: 0;
+            padding: 10px 50px;
+            background: #101828;
+            border-radius: 8px;
+            color: #F2F2F2;
+            margin-bottom: 20px;
+        }
+
+        .submit:active {
+            background-color: #1E6F9F;
+            box-shadow: 0 5px #666;
+            transform: translateY(3px);
+        }
+    }
+
+    .register__elements {
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+
+
+        label {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+    }
+
+    // position: relative;
+    // bottom: 30px;
+
+    h1 {
+        font-family: 'Poppins', sans-serif;
+        color: #101828;
+        font-size: 25px;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    input:placeholder {
+        color: #10B981;
+    }
+
+    input {
+        font-family: 'Work Sans';
+        font-size: 15px;
+        margin-top: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 280px;
+        height: 30px;
+        display: block;
+        border: 0;
+        border-radius: 0px;
+        color: #101828
+    }
+
+    input:placeholder-shown {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        color: #10B981;
+    }
+
+    p {
+        position: relative;
+        top: -25px;
+        right: 0px;
+        left: -15px;
+        line-height: 140%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        color: red;
+    }
+
+    .material-symbols-outlined {
+        color: #101828;
+    }
+}

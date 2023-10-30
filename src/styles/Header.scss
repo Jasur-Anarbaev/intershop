@@ -1,0 +1,90 @@
+.header {
+
+    padding: 40px;
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+    }
+
+    .header__buttons {
+
+        .header__inner {
+            display: flex;
+            gap: 23px;
+            align-items: center;
+            flex-wrap: wrap;
+
+            a {
+                text-decoration: none;
+            }
+
+            .bag {
+                padding: 10px 42px;
+                border: none;
+                border: 1px solid #10B981;
+                background: #F5F5F5;
+
+                h3 {
+                    font-family: 'Open Sans', sans-serif;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 18px;
+                    color: #2B2626;
+                    text-decoration: none;
+                }
+            }
+
+            button {
+                border: 0;
+                padding: 10px 36px;
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                font-weight: 500;
+                font-size: 13px;
+                color: #FFFFFF;
+                background: #10B981;
+                box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.1);
+                border-radius: 30px;
+            }
+
+            .user {
+                border: 0;
+                padding: 10px 40px;
+                font-weight: 500;
+                font-size: 13px;
+                color: #FFFFFF;
+                background: #10B981;
+                box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.1);
+                border-radius: 30px;
+            }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    .header__inner {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:400px) {
+
+    .header .header__buttons .header__inner button {
+        padding: 10px 40px;
+    }
+
+    .header .header__buttons .header__inner .bag {
+        padding: 10px 35px;
+    }
+
+    .header_img {
+        width: 70%;
+    }
+}

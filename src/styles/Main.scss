@@ -1,0 +1,116 @@
+.Main {
+    .main__desc {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .main__search {
+            display: flex;
+            border: 1px solid #f3f3f3;
+            border-radius: 10px;
+            padding: 0 10px;
+            // position: relative;
+
+            img {
+                width: 36px;
+            }
+
+            .clear {
+                position: absolute;
+                right: 0;
+                width: 18px;
+                height: 18px;
+                top: 15px;
+                right: 15px;
+            }
+
+            input {
+                border: 0;
+                padding: 13px;
+                font-size: 16px;
+                width: 200px;
+                box-sizing: border-box;
+                outline: none;
+            }
+        }
+
+        h2 {
+            font-family: 'Work Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 60px;
+            color: #101828;
+        }
+    }
+
+    .main__inner {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+
+
+        .menu__info {
+            padding: 20px 20px;
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            border: 1px solid #E4E7EC;
+            box-shadow: 0px 0px 1px 1px rgba(228, 231, 236, 0.15);
+            border-radius: 6px;
+            margin-bottom: 30px;
+            width: 350px;
+            transition: box-shadow 0.2 ease-in-out, transform 0.2 ease-in-out;
+            cursor: pointer;
+            transition: 0.3s;
+
+            &:hover {
+                box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.06);
+                transform: translate(5px);
+            }
+
+            h4 {
+                max-width: 218px;
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 26px;
+                display: flex;
+                align-items: center;
+                color: #323A4B;
+            }
+
+            p {
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 26px;
+                display: flex;
+                align-items: center;
+                color: #101828;
+            }
+        }
+    }
+}
+
+@media (max-width:500px) {
+    .Main {
+        .main__desc {
+
+
+
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+
+            h2 {
+                font-size: 25px;
+            }
+        }
+    }
+}
