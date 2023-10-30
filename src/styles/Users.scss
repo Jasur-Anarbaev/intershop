@@ -52,10 +52,55 @@
                 background: #10B981;
             }
         }
+    }
+
+}
+
+@media(max-width:605px) {
+    .group__items_blog {
+        display: flex;
+        gap: 5px;
+    }
+
+}
+
+@media(max-width:561px) {
+    .group__items_blog div:nth-child(2) {
+        display: flex;
+        gap: 10px;
+    }
+
+    .group__items .group__btns button {
+        padding: 5px 15px;
+    }
+
+    .group__items_blog {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
 
 
-
+@media(max-width:485px) {
+    .group {
+        margin-top: 20px;
 
     }
 
+    .group__items_blog div:nth-child(2) {
+        display: flex;
+        gap: 5px;
+    }
+
+    .group__items_blog {
+        gap: 15px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+    .group__items {
+        width: 90%;
+        height: 90px;
+    }
 }

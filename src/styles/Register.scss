@@ -104,3 +104,23 @@
         color: #101828;
     }
 }
+
+@media(max-width:360px) {
+    .register h1 {
+        font-size: 22px;
+    }
+}
+
+@media(max-width:350px) {
+    .register h1 {
+        font-size: 20px;
+    }
+
+    .register input {
+        width: 250px;
+    }
+
+    .register__items {
+        width: 300px;
+    }
+}

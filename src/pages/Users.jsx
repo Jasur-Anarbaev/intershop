@@ -31,7 +31,7 @@ const Users = ({ item }) => {
               <div
                 style={{
                   display: "flex",
-                  gap: "50px",
+                  gap: "15px",
                   flexWrap: "wrap",
                 }}
                 key={index}
