@@ -43,7 +43,7 @@ function App() {
                   <Route path="/users" element={<Users />} />
                   <Route path="/categories" element={<Categories />} />
                 </Route>
-                <Route path="register" element={<Register />} />
+                <Route path="/register" element={<Register />} />
               </Routes>
 
               <button id="goToTop" title="Go to top">

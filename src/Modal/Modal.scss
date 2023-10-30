@@ -111,6 +111,7 @@
     }
 
     b {
+
         font-family: 'Poppins', sans-serif;
 
     }
@@ -119,6 +120,11 @@
         font-family: 'Poppins', sans-serif;
 
     }
+}
+
+.login b {
+    display: flex;
+    justify-content: center;
 }
 
 @media(max-width:470px) {
