@@ -71,7 +71,7 @@ const Modal = ({ active, SetModalActive }) => {
                 Войти
               </div>
             </div>
-            <b>
+            <b className="b_inner">
               <div className="title"> У вас ещё нет аккаунта?</div>
               <Link to={"/register"}>
                 <span onClick={() => SetModalActive(!active)}>
