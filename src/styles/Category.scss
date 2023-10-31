@@ -138,6 +138,12 @@
     }
 }
 
+@media(max-width:650px) {
+    .content .content__category p {
+        display: flex;
+        justify-content: center;
+    }
+}
 
 @media(max-width:490px) {
     .content .content__category .boxes {
